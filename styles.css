@@ -1,0 +1,249 @@
+
+
+*{
+    
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+}
+
+/* tête de page */
+
+header.header{
+    display: flex;
+    align-items: center;
+    
+}
+
+header.header img{
+    width: 150px;
+
+}
+
+section.top-page{
+    background: url('../images/image.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+
+/* page de bienvenue (landing page) */
+
+.landing-page{
+    padding: 10px 40px;
+}
+
+.big-title{
+    color: aliceblue;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.scroll-down {
+    color: orangered;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+    
+
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 1100px;
+    margin-left: 30px;
+
+}
+
+
+nav.nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* services */
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.service-items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+    
+
+.delivery-icon {
+    font-size: 50px;
+    color: orangered; 
+
+}
+
+.service-details {
+    font-weight: 800;
+    width: 200px; 
+    text-align: center;
+
+}
+
+/* meilleures ventes */
+
+.section-title {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    position: relative;
+}
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: orangered;
+    width: 50px;
+    height: 7px;
+    bottom: 0; 
+
+}
+
+.bests-items {
+    margin: 50px;
+}
+
+.best-maillots {
+    background-color: brown;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.maillots-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.no-grid {
+    min-width: 300px;
+    height: 500px;
+    flex: 1;
+
+}
+
+.maillots1 {
+    background-image: url(../images/fille\ 2.jpeg.png);
+}
+
+.maillots2 {
+    background-image: url(../images/jeu.jpeg.png);
+} 
+
+.maillots3 {
+    background-image: url(../images/benin.jpeg);
+}
+
+.maillots4 {
+    background-image: url(../images/phania.jpeg.png);
+}
+
+.maillot-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.maillot-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.maillot-price {
+    color: orangered;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* nos maillots */
+
+.all-maillots {
+    margin: 100px;
+}
+
+.maillot-grid {
+    display: grid;
+    min-height: 150vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 400px);
+}
+
+.maillot-grid1 {
+    background-image: url(../images/arsenal-third.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    
+}
+
+.maillot-grid2 {
+    background-image: url(../images/real.jpg);
+    grid-column: 3/5;
+}
+
+.maillot-grid3 {
+    background-image: url(../images/fcb-away.jpg);
+    grid-column: 3/5;
+}
+
+.maillot-grid4 {
+    background-image: url(../images/arsenal.jpg);
+    grid-column: 1;
+    grid-row: 3/5;
+}
+
+.maillot-grid5 {
+    background-image: url(../images/real3.jpg);
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+
+.maillot-grid6 {
+    background-image: url(../images/fcb-third.jpg);
+    grid-column: 4;
+    grid-row: 3/5;
+}
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+
+}
