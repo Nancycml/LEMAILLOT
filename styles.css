@@ -27,7 +27,7 @@ header.header img{
 }
 
 section.top-page{
-    background: url('../images/image.jpg');
+    background: url('images/image.jpg');
     background-size: cover;
     height: 80vh;
     padding: 25px;
@@ -147,19 +147,19 @@ nav.nav li a {
 }
 
 .maillots1 {
-    background-image: url(../images/fille\ 2.jpeg.png);
+    background-image: url(images/fille\ 2.jpeg.png);
 }
 
 .maillots2 {
-    background-image: url(../images/jeu.jpeg.png);
+    background-image: url(images/jeu.jpeg.png);
 } 
 
 .maillots3 {
-    background-image: url(../images/benin.jpeg);
+    background-image: url(images/benin.jpeg);
 }
 
 .maillots4 {
-    background-image: url(../images/phania.jpeg.png);
+    background-image: url(images/phania.jpeg.png);
 }
 
 .maillot-details {
