@@ -197,36 +197,36 @@ nav.nav li a {
 }
 
 .maillot-grid1 {
-    background-image: url(../images/arsenal-third.jpg);
+    background-image: url(images/arsenal-third.jpg);
     grid-column: 1/3;
     grid-row: 1/3;
     
 }
 
 .maillot-grid2 {
-    background-image: url(../images/real.jpg);
+    background-image: url(images/real.jpg);
     grid-column: 3/5;
 }
 
 .maillot-grid3 {
-    background-image: url(../images/fcb-away.jpg);
+    background-image: url(images/fcb-away.jpg);
     grid-column: 3/5;
 }
 
 .maillot-grid4 {
-    background-image: url(../images/arsenal.jpg);
+    background-image: url(images/arsenal.jpg);
     grid-column: 1;
     grid-row: 3/5;
 }
 
 .maillot-grid5 {
-    background-image: url(../images/real3.jpg);
+    background-image: url(images/real3.jpg);
     grid-column: 2/4;
     grid-row: 3/5;
 }
 
 .maillot-grid6 {
-    background-image: url(../images/fcb-third.jpg);
+    background-image: url(images/fcb-third.jpg);
     grid-column: 4;
     grid-row: 3/5;
 }
