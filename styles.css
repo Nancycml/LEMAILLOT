@@ -248,6 +248,7 @@ footer a.cgv {
 
 }
 #scene{
+    color: white;
     height: 600px;
     width:1000px;
     position: relative;
